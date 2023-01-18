@@ -77,10 +77,12 @@ body{
     text-align: center;
 }
 @media (max-width: 886px){
+    .date{
+        display: block;
+    }
     .main{
         display: block;
         margin: auto;
-        margin-top: 14px;
         height: auto;
     }
     .days,
@@ -91,6 +93,13 @@ body{
        margin: auto;
        margin: 10px;
     }
+    .img-one,
+    .img-two,
+    .img-three,
+    .img-four{
+      width: 50%;
+      height: 40%;
+}
 }
 @media (max-width: 447px){
     .main{
